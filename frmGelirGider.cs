@@ -29,8 +29,6 @@ namespace LotusPansiyonVeDinlenmeTesisleri
             StaffWagesCost.Text = (personel * 1500).ToString();
 
 
-
-
             // Helper method to handle possible commas (for non-US cultures)
             decimal ConvertToDecimal(string value)
             {
@@ -61,24 +59,6 @@ namespace LotusPansiyonVeDinlenmeTesisleri
 
             // Sonucu string'e çevirip ResultLabel'a atıyoruz
             ResultCostLabel.Text = sonuc.ToString("N2"); // İki ondalıklı formatla göster
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         }
@@ -179,11 +159,6 @@ namespace LotusPansiyonVeDinlenmeTesisleri
 
             // Bağlantıyı kapat
             baglanti.Close();
-
-
-
-
-
 
 
             // Veritabanı bağlantısını aç
